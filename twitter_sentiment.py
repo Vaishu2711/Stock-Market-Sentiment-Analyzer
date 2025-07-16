@@ -1,7 +1,7 @@
 import requests
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAHgJ3AEAAAAANr%2BCUYQMi06IJoWL98tYQXoDZqU%3DttyMrLPBquk7yDmW5w0Vlvekiakzjkz1Dy51fpJ5j3bZjZpcKJ"
+BEARER_TOKEN = " Your Bearer Token"
 
 def create_headers():
     return {"Authorization": f"Bearer {BEARER_TOKEN}"}
